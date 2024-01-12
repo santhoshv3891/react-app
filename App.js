@@ -1,10 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import Heading from "./components/Heading";
 
-const heading = React.createElement(
-  "h1",
-  { className: "test-header" },
-  "Welcome to my react app"
-);
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(heading);
+root.render(<Heading />);
